@@ -12,17 +12,22 @@ def getResponse(complete_address):
     json_r = api_response.json()
     json_str = json.dumps(json_r)
     parsed_json = json.loads(json_str)
-    print('----------------------------------------------------------------------')
-    print("Original Address: ",complete_address)
-    #this gives the formatted address
-    print("Formatted Address: ",parsed_json['results'][0]['formatted_address'])
-    #this gives the latitude
-    print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])
-    #this gives the longitude
-    print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])
-    print('----------------------------------------------------------------------')
+    #print(len(parsed_json['results']))
+    if len(parsed_json['results'])>0:
+            print('----------------------------------------------------------------------')
+            print("Original Address: ",complete_address)
+            #this gives the formatted address
+            print("Formatted Address: ",parsed_json['results'][0]['formatted_address'])
+            #this gives the latitude
+            print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])
+            #this gives the longitude
+            print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])
+            print('----------------------------------------------------------------------')
+    else:
+            print("No record available for: ",complete_address)
     return;
 
-getResponse("New Ashok Nagar Metro Station")
-getResponse("Contata Solutions Noida India")
-getResponse("IIT(ISM) Dhanbad, Jharkhand, India")
+getResponse("Lot 2 140th Ave,Beaver Twp,WI,54889")
+getResponse("Gitasri Clinic, Dhanbad, Jharkhand")
+#getResponse("Contata Solutions Noida India")
+#getResponse("IIT(ISM) Dhanbad, Jharkhand, India")
