@@ -28,6 +28,8 @@ def getResponse(complete_address):
     return;
 
 getResponse("Lot 2 140th Ave,Beaver Twp,WI,54889")
-getResponse("Gitasri Clinic, Dhanbad, Jharkhand")
+getResponse("XXX Jackson Avenue N,Morristown,MN,55052")
+getResponse("Lot 27 Birch Park,St. Joseph Twp,WI,54016")
+getResponse("AAAA Cedar Lake Boulevard,Faribault,MN,55021")
 #getResponse("Contata Solutions Noida India")
 #getResponse("IIT(ISM) Dhanbad, Jharkhand, India")
