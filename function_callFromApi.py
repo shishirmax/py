@@ -40,11 +40,17 @@ def getResponse(complete_address):
             print("No record available for: ",complete_address)
     return;
 
-getResponse("1021 Bailey Street, Hastings, 55033")
-getResponse("15104 Southwind Drive , Burnsville,, 55306")
-getResponse("3305 148th Street West , Rosemount, 55068")
-getResponse("14550 240th Street East, Hastings, 55033")
-getResponse("4107 Cashell Glen, Eagan, 55122")
+#getResponse("1021 Bailey Street, Hastings, 55033")
+
+#getResponse("805 Flying Cloud Dr #219   Eden Prairie, MN, 55344")
+#getResponse("503 11th Ave NE Minot, ND, 58703")
+#getResponse("3711 Pillsbury Ave S Minneapolis, MN, 55409")
+#c/o 12502 Chaney Avenue	NA	Lismore	MN	56155
+getResponse("contata solutions india")
+#getResponse("15104 Southwind Drive , Burnsville,, 55306")
+#getResponse("3305 148th Street West , Rosemount, 55068")
+#getResponse("14550 240th Street East, Hastings, 55033")
+#getResponse("4107 Cashell Glen, Eagan, 55122")
 #getResponse("Lot 2 140th Ave,Beaver Twp,WI,54889")
 #getResponse("XXX Jackson Avenue N,Morristown,MN,55052")
 #getResponse("Lot 27 Birch Park,St. Joseph Twp,WI,54016")
