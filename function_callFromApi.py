@@ -21,15 +21,33 @@ def getResponse(complete_address):
             #this gives the latitude
             print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])
             #this gives the longitude
+            print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])            
+            print('----------------------------------------------------------------------')
+    elif len(parsed_json['results'])>1:
+            print('----------------------------------------------------------------------')
+            print("Original Address: ",complete_address)
+            #this gives the formatted address
+            print("Result 1:")
+            print("Formatted Address 1: ",parsed_json['results'][0]['formatted_address'])            
+            print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])            
             print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])
+            print("Result 2:")
+            print("Formatted Address 1: ",parsed_json['results'][0]['formatted_address'])            
+            print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])            
+            print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])            
             print('----------------------------------------------------------------------')
     else:
             print("No record available for: ",complete_address)
     return;
 
-getResponse("Lot 2 140th Ave,Beaver Twp,WI,54889")
-getResponse("XXX Jackson Avenue N,Morristown,MN,55052")
-getResponse("Lot 27 Birch Park,St. Joseph Twp,WI,54016")
-getResponse("AAAA Cedar Lake Boulevard,Faribault,MN,55021")
+getResponse("1021 Bailey Street, Hastings, 55033")
+getResponse("15104 Southwind Drive , Burnsville,, 55306")
+getResponse("3305 148th Street West , Rosemount, 55068")
+getResponse("14550 240th Street East, Hastings, 55033")
+getResponse("4107 Cashell Glen, Eagan, 55122")
+#getResponse("Lot 2 140th Ave,Beaver Twp,WI,54889")
+#getResponse("XXX Jackson Avenue N,Morristown,MN,55052")
+#getResponse("Lot 27 Birch Park,St. Joseph Twp,WI,54016")
+#getResponse("AAAA Cedar Lake Boulevard,Faribault,MN,55021")
 #getResponse("Contata Solutions Noida India")
 #getResponse("IIT(ISM) Dhanbad, Jharkhand, India")
