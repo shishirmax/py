@@ -46,14 +46,43 @@ def getResponse(complete_address):
 #getResponse("503 11th Ave NE Minot, ND, 58703")
 #getResponse("3711 Pillsbury Ave S Minneapolis, MN, 55409")
 #c/o 12502 Chaney Avenue	NA	Lismore	MN	56155
-getResponse("contata solutions india")
-#getResponse("15104 Southwind Drive , Burnsville,, 55306")
-#getResponse("3305 148th Street West , Rosemount, 55068")
-#getResponse("14550 240th Street East, Hastings, 55033")
-#getResponse("4107 Cashell Glen, Eagan, 55122")
-#getResponse("Lot 2 140th Ave,Beaver Twp,WI,54889")
-#getResponse("XXX Jackson Avenue N,Morristown,MN,55052")
-#getResponse("Lot 27 Birch Park,St. Joseph Twp,WI,54016")
-#getResponse("AAAA Cedar Lake Boulevard,Faribault,MN,55021")
-#getResponse("Contata Solutions Noida India")
-#getResponse("IIT(ISM) Dhanbad, Jharkhand, India")
+#707 Commerce Drive, #410   Woodbury, MN, 55125
+#getResponse("707 Commerce Drive, 410   Woodbury, MN, 55125")
+#1125 1st Street South #229   Sartell, MN, 56377
+#getResponse("1125 1st Street South 229   Sartell, MN, 56377")
+#115 2nd Avenue South, #716   Minneapolis, MN, 55401
+#getResponse("115 2nd Avenue South, 716   Minneapolis, MN, 55401")
+#433 7th Street South, #1607   Minneapolis, MN, 55415
+#getResponse("433 7th Street South, 1607   Minneapolis, MN, 55415")
+#526 Lovell Ave #4   Roseville, MN, 55113
+#getResponse("26 Lovell Ave 4   Roseville, MN, 55113")
+#2996 Cleveland Ave N #109 Roseville, MN, 55113
+#getResponse("2996 Cleveland Ave N 109 Roseville, MN, 55113")
+#getResponse("2996 Cleveland Ave N #109 Roseville, MN, 55113")
+
+#815 Smetana Rd #5 Hopkins,  , 55343
+#getResponse("815 Smetana Rd #5 Hopkins,  , 55343")
+#getResponse("815 Smetana Rd 5 Hopkins,  , 55343")
+
+#526 Lovell Ave #4   Roseville, MN, 55113
+#getResponse("526 Lovell Ave #4   Roseville, MN, 55113")
+#getResponse("526 Lovell Ave 4   Roseville, MN, 55113")
+
+#14221 Dallas Parkway #1000 *C1206s7***1704476084* Dallas, MN, 75254-2916 [excluding # also does not gives result]
+#getResponse("14221 Dallas Parkway #1000 *C1206s7***1704476084* Dallas, MN, 75254-2916")
+#getResponse("14221 Dallas Parkway 1000  Dallas, MN, 75254")
+
+#707 Commerce Drive, #410   Woodbury, MN, 55125
+#getResponse("707 Commerce Drive, #410   Woodbury, MN, 55125")
+#getResponse("707 Commerce Drive, 410   Woodbury, MN, 55125")
+
+
+#2670 Commerce Blvd #201 Mound, MN, 55364
+#getResponse("2670 Commerce Blvd #201 Mound, MN, 55364")
+#getResponse("2670 Commerce Blvd 201 Mound, MN, 55364")
+
+#316 10th Ave SE   Minneapolis,  , 55414-1922
+#getResponse("316 10th Ave SE   Minneapolis,  , 55414-1922")
+
+#8770 West Bryn Mawr Ste #1300, Chicago IL, 60631
+getResponse("8770 West Bryn Mawr Ste 1300, Chicago IL, 60631")
