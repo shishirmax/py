@@ -85,4 +85,10 @@ def getResponse(complete_address):
 #getResponse("316 10th Ave SE   Minneapolis,  , 55414-1922")
 
 #8770 West Bryn Mawr Ste #1300, Chicago IL, 60631
-getResponse("8770 West Bryn Mawr Ste 1300, Chicago IL, 60631")
+#getResponse("8770 West Bryn Mawr Ste 1300, Chicago IL, 60631")
+
+#904 - 23rd Street SW   Austin, MN, 55912
+#getResponse("904 - 23rd Street SW   Austin, MN, 55912")
+
+#FHA CASE NUMBER: 271-967147 1670 Broadway, 21st Floor Denver, CO, 80202
+getResponse("21st Floor Denver, CO, 80202")
