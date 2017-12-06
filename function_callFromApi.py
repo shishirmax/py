@@ -91,4 +91,24 @@ def getResponse(complete_address):
 #getResponse("904 - 23rd Street SW   Austin, MN, 55912")
 
 #FHA CASE NUMBER: 271-967147 1670 Broadway, 21st Floor Denver, CO, 80202
-getResponse("21st Floor Denver, CO, 80202")
+#getResponse("21st Floor Denver, CO, 80202")
+
+#================================Address Matching vdbs & ecrv===============================
+#78 10th 8900 55101 (Address on tblecrvAddress)
+#getResponse("78 10th 8900 5510")
+
+#78 10TH ST E UNIT 3202 SAINT PAUL MN 55101 (Address on VDBS)
+#getResponse("78 10TH ST E UNIT 3202 SAINT PAUL MN 55101")
+#================================Address Matching vdbs & ecrv===============================
+
+#===============================================================
+#Original Address: 6155 COURTLY ALCOVE UNIT G SAINT PAUL MN 55125(Address on VDBS)
+#getResponse("6155 COURTLY ALCOVE UNIT G SAINT PAUL MN 55125")
+
+#Original Address: 6155 Courtly Alcove Unit G Woodbury MN 55125(Address on tblecrvAddress)
+#getResponse("6155 Courtly Alcove Unit G Woodbury MN 55125")
+#===============================================================
+
+#Joseph L. Melena, TEE 3846 Magnolia Drive Palo Alto, CA, 94306
+getResponse("Joseph L. Melena, TEE 3846 ")
+getResponse("Magnolia Drive Palo Alto, CA, 94306")
