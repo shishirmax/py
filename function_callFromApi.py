@@ -110,5 +110,5 @@ def getResponse(complete_address):
 #===============================================================
 
 #Joseph L. Melena, TEE 3846 Magnolia Drive Palo Alto, CA, 94306
-getResponse("Joseph L. Melena, TEE 3846 ")
-getResponse("Magnolia Drive Palo Alto, CA, 94306")
+#getResponse("Joseph L. Melena, TEE 3846 ")
+#getResponse("Magnolia Drive Palo Alto, CA, 94306")
