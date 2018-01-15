@@ -40,6 +40,14 @@ def getResponse(complete_address):
             print("No record available for: ",complete_address)
     return;
 
+#3544 Sumter Avenue South (St. Louis Park)Minneapolis	MN	55426
+#getResponse("3544 Sumter Avenue South (St. Louis Park)Minneapolis	MN	55426")	
+
+#7700 Lee Avenue North Not the corner lot Grey with white trim	Minneapolis	MN	55443
+#getResponse("7700 Lee Avenue North MN	55443")
+
+getResponse("P.O. BOX 122	East Glacier Park Village	MT	59434")
+	
 #getResponse("1021 Bailey Street, Hastings, 55033")
 
 #getResponse("805 Flying Cloud Dr #219   Eden Prairie, MN, 55344")
