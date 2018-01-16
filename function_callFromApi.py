@@ -46,7 +46,8 @@ def getResponse(complete_address):
 #7700 Lee Avenue North Not the corner lot Grey with white trim	Minneapolis	MN	55443
 #getResponse("7700 Lee Avenue North MN	55443")
 
-getResponse("P.O. BOX 122	East Glacier Park Village	MT	59434")
+getResponse("812 Millwood Avenue Roseville, MN, 55113")
+getResponse("1600 Legacy Parkway East # 4 Maplewood, MN, 55109")
 	
 #getResponse("1021 Bailey Street, Hastings, 55033")
 
