@@ -1,6 +1,7 @@
 import requests
 import json
 
+file = open("Address.txt","w")
 def getResponse(complete_address):    
     url = "https://maps.googleapis.com/maps/api/geocode/json?address="+complete_address+"&key=AIzaSyBEQyAbIVXfGTSbLr_S-HUpSZoxfoBbc5I"
     api_response = requests.get(url)
@@ -8,11 +9,10 @@ def getResponse(complete_address):
     api_response.headers['content-type']
     api_response.encoding
     api_response.json()
-
+	
     json_r = api_response.json()
     json_str = json.dumps(json_r)
-    parsed_json = json.loads(json_str)
-	file = open("Address.txt","w") 
+    parsed_json = json.loads(json_str)	
     #print(len(parsed_json['results']))
     if len(parsed_json['results'])>0:
             file.write('----------------------------------------------------------------------')
@@ -38,7 +38,10 @@ def getResponse(complete_address):
             file.write("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])            
             file.write('----------------------------------------------------------------------')
     else:
-            file.write("No record available for: ",complete_address)
+            file.write("No record available for: ",complete_address)	
     return;
+
  getResponse("100 Salem Church Road First door in circular drive. Sunfish Lake, MN, 55118")
-file.close() 
+ 
+ file.close() 
+	

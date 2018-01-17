@@ -13,7 +13,7 @@ def getResponse(complete_address):
     json_str = json.dumps(json_r)
     parsed_json = json.loads(json_str)
     #print(len(parsed_json['results']))
-    if len(parsed_json['results'])>0:
+    if len(parsed_json['results'])>0:          
             print('----------------------------------------------------------------------')
             print("Original Address: ",complete_address)
             #this gives the formatted address
@@ -33,8 +33,8 @@ def getResponse(complete_address):
             print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])
             print("Result 2:")
             print("Formatted Address 1: ",parsed_json['results'][0]['formatted_address'])            
-            print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])            
-            print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])            
+            print("Latitude = ",parsed_json['results'][0]['geometry']['location']['lat'])            
+            print("Longitude = ",parsed_json['results'][0]['geometry']['location']['lng'])            
             print('----------------------------------------------------------------------')
     else:
             print("No record available for: ",complete_address)
@@ -46,8 +46,10 @@ def getResponse(complete_address):
 #7700 Lee Avenue North Not the corner lot Grey with white trim	Minneapolis	MN	55443
 #getResponse("7700 Lee Avenue North MN	55443")
 
-getResponse("812 Millwood Avenue Roseville, MN, 55113")
-getResponse("1600 Legacy Parkway East # 4 Maplewood, MN, 55109")
+#getResponse("812 Millwood Avenue Roseville, MN, 55113")
+#getResponse("1600 Legacy Parkway East # 4 Maplewood, MN, 55109")
+
+getResponse("13001 Pennock Avenue Apple Valley, MN, 55124")
 	
 #getResponse("1021 Bailey Street, Hastings, 55033")
 
