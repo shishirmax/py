@@ -19,9 +19,9 @@ def getResponse(complete_address):
             #this gives the formatted address
             print("Formatted Address: ",parsed_json['results'][0]['formatted_address'])
             #this gives the latitude
-            print("Latitude: ",parsed_json['results'][0]['geometry']['location']['lat'])
+            print("Latitude =  ",parsed_json['results'][0]['geometry']['location']['lat'])
             #this gives the longitude
-            print("Longitude: ",parsed_json['results'][0]['geometry']['location']['lng'])            
+            print("Longitude = ",parsed_json['results'][0]['geometry']['location']['lng'])            
             print('----------------------------------------------------------------------')
     elif len(parsed_json['results'])>1:
             print('----------------------------------------------------------------------')
@@ -40,44 +40,11 @@ def getResponse(complete_address):
             print("No record available for: ",complete_address)
     return;
 
-#3544 Sumter Avenue South (St. Louis Park)Minneapolis	MN	55426
-#getResponse("3544 Sumter Avenue South (St. Louis Park)Minneapolis	MN	55426")	
 
-#7700 Lee Avenue North Not the corner lot Grey with white trim	Minneapolis	MN	55443
-#getResponse("7700 Lee Avenue North MN	55443")
-
-#getResponse("812 Millwood Avenue Roseville, MN, 55113")
-#getResponse("1600 Legacy Parkway East # 4 Maplewood, MN, 55109")
-
-getResponse("13001 Pennock Avenue Apple Valley, MN, 55124")
-	
-#getResponse("1021 Bailey Street, Hastings, 55033")
-
-#getResponse("805 Flying Cloud Dr #219   Eden Prairie, MN, 55344")
-#getResponse("503 11th Ave NE Minot, ND, 58703")
-#getResponse("3711 Pillsbury Ave S Minneapolis, MN, 55409")
-#c/o 12502 Chaney Avenue	NA	Lismore	MN	56155
-#707 Commerce Drive, #410   Woodbury, MN, 55125
-#getResponse("707 Commerce Drive, 410   Woodbury, MN, 55125")
-#1125 1st Street South #229   Sartell, MN, 56377
-#getResponse("1125 1st Street South 229   Sartell, MN, 56377")
-#115 2nd Avenue South, #716   Minneapolis, MN, 55401
-#getResponse("115 2nd Avenue South, 716   Minneapolis, MN, 55401")
-#433 7th Street South, #1607   Minneapolis, MN, 55415
-#getResponse("433 7th Street South, 1607   Minneapolis, MN, 55415")
-#526 Lovell Ave #4   Roseville, MN, 55113
-#getResponse("26 Lovell Ave 4   Roseville, MN, 55113")
-#2996 Cleveland Ave N #109 Roseville, MN, 55113
-#getResponse("2996 Cleveland Ave N 109 Roseville, MN, 55113")
-#getResponse("2996 Cleveland Ave N #109 Roseville, MN, 55113")
-
-#815 Smetana Rd #5 Hopkins,  , 55343
-#getResponse("815 Smetana Rd #5 Hopkins,  , 55343")
-#getResponse("815 Smetana Rd 5 Hopkins,  , 55343")
-
-#526 Lovell Ave #4   Roseville, MN, 55113
-#getResponse("526 Lovell Ave #4   Roseville, MN, 55113")
-#getResponse("526 Lovell Ave 4   Roseville, MN, 55113")
+#BingKey:Aim8XKIPtIkoYjUNnquTBPr3-4Kvkzw1aiY-97ox-87bebGvFj6H8YSmghU7BfVH
+#Url: http://dev.virtualearth.net/REST/v1/Locations?q=Contata%20Solutions%India&key=Aim8XKIPtIkoYjUNnquTBPr3-4Kvkzw1aiY-97ox-87bebGvFj6H8YSmghU7BfVH
+#http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&key=Aim8XKIPtIkoYjUNnquTBPr3-4Kvkzw1aiY-97ox-87bebGvFj6H8YSmghU7BfVH
+getResponse("980 Labarge Rd, Hudson, WI 54016")
 
 #14221 Dallas Parkway #1000 *C1206s7***1704476084* Dallas, MN, 75254-2916 [excluding # also does not gives result]
 #getResponse("14221 Dallas Parkway #1000 *C1206s7***1704476084* Dallas, MN, 75254-2916")

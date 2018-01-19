@@ -46,7 +46,8 @@ connection = pypyodbc.connect('Driver={ODBC Driver 13 for SQL Server};PORT=1443;
 
 
 cursor = connection.cursor()
-OriginalAddress = ("select top 10 OriginalAddress from zerorez.tblZerorezStandardAddressApi where formatted_address = 'NA' order by 1")
+#OriginalAddress = ("select top 10 OriginalAddress from zerorez.tblZerorezStandardAddressApi where formatted_address = 'NA' order by 1")
+OriginalAddress = ("select case when OriginalAddress like ''%(%)%'' then substring(OriginalAddress,1,charindex(''('',OriginalAddress)-1)+''''+substring(OriginalAddress,charindex('')'',OriginalAddress)+1,len(OriginalAddress)) else originalAddress end updatedAddress from zerorez.tblZerorezStandardAddressApi(NOLOCK) where formatted_address = ''NA''  and originaladdress like ''%(%)%''")
 res = cursor.execute(OriginalAddress)
 for r in res:
 	getResponse(str(r))
