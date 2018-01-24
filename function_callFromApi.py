@@ -44,7 +44,7 @@ def getResponse(complete_address):
 #BingKey:Aim8XKIPtIkoYjUNnquTBPr3-4Kvkzw1aiY-97ox-87bebGvFj6H8YSmghU7BfVH
 #Url: http://dev.virtualearth.net/REST/v1/Locations?q=Contata%20Solutions%India&key=Aim8XKIPtIkoYjUNnquTBPr3-4Kvkzw1aiY-97ox-87bebGvFj6H8YSmghU7BfVH
 #http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&key=Aim8XKIPtIkoYjUNnquTBPr3-4Kvkzw1aiY-97ox-87bebGvFj6H8YSmghU7BfVH
-getResponse("980 Labarge Rd, Hudson, WI 54016")
+getResponse("15331 Woodside Lane off hwy 7 & highland - culdesac Minnetonka, MN, 55345")
 
 #14221 Dallas Parkway #1000 *C1206s7***1704476084* Dallas, MN, 75254-2916 [excluding # also does not gives result]
 #getResponse("14221 Dallas Parkway #1000 *C1206s7***1704476084* Dallas, MN, 75254-2916")
