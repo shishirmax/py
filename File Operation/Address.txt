@@ -1,0 +1,10 @@
+----------------------------------------------------------------------
+Original Address: 
+new ashok nagar metro station,delhi
+Formatted Address: 
+New Ashok Nagar Rd, Block B, Ashok Nagar Extension, New Ashok Nagar, New Delhi, Delhi 110096, India
+Latitude: 
+28.5891405
+Longitude: 
+77.3018829
+----------------------------------------------------------------------
