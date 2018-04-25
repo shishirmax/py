@@ -1,10 +1,20 @@
 ----------------------------------------------------------------------
 Original Address: 
-new ashok nagar metro station,delhi
+Contata Solution, Noida, 201301
 Formatted Address: 
-New Ashok Nagar Rd, Block B, Ashok Nagar Extension, New Ashok Nagar, New Delhi, Delhi 110096, India
+A-37, Block A, Sector 4, Noida, Uttar Pradesh 201301, India
 Latitude: 
-28.5891405
+28.5818013
 Longitude: 
-77.3018829
+77.321316
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Original Address: 
+Indian School of Mines, Dhanbad, 826004
+Formatted Address: 
+Police Line, Sardar Patel Nagar, Hirapur, Dhanbad, Jharkhand 826004, India
+Latitude: 
+23.8143819
+Longitude: 
+86.44120219999999
 ----------------------------------------------------------------------

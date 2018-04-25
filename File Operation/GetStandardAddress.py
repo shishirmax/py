@@ -40,4 +40,4 @@ def getResponse(complete_address):
             print("No record available for: ",complete_address)
     return;
 
-getResponse("Umang Media,B1 Block, New Ashok Nagar, New Delhi")
+getResponse("7621 Portland Ave S   8800,  , 55420")
