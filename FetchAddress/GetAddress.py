@@ -41,7 +41,7 @@ def getResponse(complete_address):
             file.write("No record available for: ",complete_address)	
     return;
 
- getResponse("100 Salem Church Road First door in circular drive. Sunfish Lake, MN, 55118")
+getResponse("100 Salem Church Road First door in circular drive. Sunfish Lake, MN, 55118")
  
- file.close() 
+file.close() 
 	
