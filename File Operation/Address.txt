@@ -1,20 +1,10 @@
 ----------------------------------------------------------------------
 Original Address: 
-Contata Solution, Noida, 201301
+County Road 141,Saint Augusta,MN,55320
 Formatted Address: 
-A-37, Block A, Sector 4, Noida, Uttar Pradesh 201301, India
+Co Rd 141, St Augusta, MN, USA
 Latitude: 
-28.5818013
+45.4352125
 Longitude: 
-77.321316
-----------------------------------------------------------------------
-----------------------------------------------------------------------
-Original Address: 
-Indian School of Mines, Dhanbad, 826004
-Formatted Address: 
-Police Line, Sardar Patel Nagar, Hirapur, Dhanbad, Jharkhand 826004, India
-Latitude: 
-23.8143819
-Longitude: 
-86.44120219999999
+-94.2298489
 ----------------------------------------------------------------------

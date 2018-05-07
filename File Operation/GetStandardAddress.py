@@ -40,4 +40,4 @@ def getResponse(complete_address):
             print("No record available for: ",complete_address)
     return;
 
-getResponse("702 Donald St  Marshall, MN, 56258")
+getResponse("121 Washington Ave S 1607   Minneapolis,  , 55401")

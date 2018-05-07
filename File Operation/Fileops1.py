@@ -56,6 +56,5 @@ def getResponse(complete_address):
 			file.write("No record available for: ")
 			file.write(complete_address)
 	return;
-getResponse("Contata Solution, Noida, 201301")
-getResponse("Indian School of Mines, Dhanbad, 826004")
+getResponse("County Road 141,Saint Augusta,MN,55320")
 file.close() 
