@@ -2,7 +2,7 @@ import requests
 import json
 import pypyodbc
 
-connection = pypyodbc.connect('Driver={SQL Server};Server=SHISHIRS;Database=shishir;uid=sa;pwd=sysadmin')
+connection = pypyodbc.connect('Driver={SQL Server};Server=SomeServerName;Database=SomeDBName;uid=sa;pwd=sysadmin')
 print("SQL Connection Created..")
 print('----------------------------------------------------------------------')
 def getToken(username,password):
@@ -29,6 +29,6 @@ def getToken(username,password):
     print("Data Successfully Inserted")
     connection.close()
     #print(strToken)
-getToken("devs@anytimefitness.com","qoe2lGF4POeEX9j")
+getToken("SomeUsername","SomePassword")
 
 
