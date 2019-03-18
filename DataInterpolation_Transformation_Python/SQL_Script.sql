@@ -47,9 +47,3 @@ GO
 
 
 
-EXEC sp_execute_external_script @language =N'Python',
-@script=N'
-import pandas as pd
-import numpy as np
-data = pd.read_csv("D:\GIT\py\Data Interpolation and Transformation using Python\file\loanprediction.csv", index_col="Loan_ID")
-print(data)
