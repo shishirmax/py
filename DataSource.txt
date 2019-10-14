@@ -1,0 +1,1 @@
+Data Source=localhost\SQLEXPRESS;Initial Catalog=Analytics;Integrated Security=True;User ID=;Password=******;Pooling=False;Application Name=sqlops-connection-string
